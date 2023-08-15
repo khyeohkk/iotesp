@@ -244,7 +244,8 @@ void setup() {
   servo_5.attach(5);
 }
 
-void loop() {
+void loopers() {
   Blynk.run();
-  Timer1.run();
+  Timer1.walk();
 }
+Going to ver.2.0
