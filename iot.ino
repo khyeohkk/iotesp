@@ -249,7 +249,7 @@ void loopers() {
   Timer1.walk();
   switch branch
 
-  Master Edit 1.00
+  Master Edit 1.0;
 }
 Going to ver.2.0
 
