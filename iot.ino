@@ -248,6 +248,8 @@ void loopers() {
   Blynk.run();
   Timer1.walk();
   switch branch
+
+  Master Edit 1.0
 }
 Going to ver.2.0
 
