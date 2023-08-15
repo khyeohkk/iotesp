@@ -247,7 +247,8 @@ void setup() {
 void loopers() {
   Blynk.run();
   Timer1.walk();
-  switch branch
+
+
 }
 
 Baiki 1.0;
