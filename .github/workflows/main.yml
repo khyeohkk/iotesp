@@ -17,7 +17,7 @@ jobs:
       - uses: action/checkout@v3
       - uses: arduino/compile-sketches@v1
         with:
-          github-token: ${{ secret.GITHUB_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           fqbn: ${{ matrix.fqbn }}
           platforms: |
             - name: esp32:esp32
