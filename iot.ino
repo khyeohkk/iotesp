@@ -150,10 +150,10 @@ int pinValue = param.asInt();
   if (pinValue == 1) {
     digitalWrite(13,LOW);
     digitalWrite(14,HIGH);
-    analogWrite(25,200);
+    analogWrite(25,125);
     digitalWrite(18,LOW);
     digitalWrite(19,HIGH);
-    analogWrite(15,200);
+    analogWrite(15,125);
 
   } else {
     digitalWrite(13,LOW);
