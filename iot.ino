@@ -128,10 +128,10 @@ int pinValue = param.asInt();
   if (pinValue == 1) {
     digitalWrite(13,HIGH);
     digitalWrite(14,LOW);
-    analogWrite(25,200);
+    analogWrite(25,125); // 20230816 1124 i_speed
     digitalWrite(18,HIGH);
     digitalWrite(19,LOW);
-    analogWrite(15,200);
+    analogWrite(15,125; // 20230816 1124 i_speed
 
   } else {
     digitalWrite(13,HIGH);
