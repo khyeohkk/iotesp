@@ -6,7 +6,7 @@
 #define BLYNK_AUTH_TOKEN            "SEYzlM7iYOryw0D5MJjNwXeDgEwLn_Eq"
 
 
-#define BLYNK_PRINT Serialkk
+#define BLYNK_PRINT Serial
 
 
 #include <WiFi.h>
@@ -128,10 +128,10 @@ int pinValue = param.asInt();
   if (pinValue == 1) {
     digitalWrite(13,HIGH);
     digitalWrite(14,LOW);
-    analogWrite(25,125); // 20230816 1124 i_speed
+    analogWrite(25,200);
     digitalWrite(18,HIGH);
     digitalWrite(19,LOW);
-    analogWrite(15,125; // 20230816 1124 i_speed
+    analogWrite(15,200);
 
   } else {
     digitalWrite(13,HIGH);
@@ -150,10 +150,10 @@ int pinValue = param.asInt();
   if (pinValue == 1) {
     digitalWrite(13,LOW);
     digitalWrite(14,HIGH);
-    analogWrite(25,125);
+    analogWrite(25,200);
     digitalWrite(18,LOW);
     digitalWrite(19,HIGH);
-    analogWrite(15,125);
+    analogWrite(15,200);
 
   } else {
     digitalWrite(13,LOW);
@@ -202,13 +202,13 @@ int pinValue = param.asInt();
   }
 }
 
-BLYNK_WRITE(V53)              //i4_Pls update here
+BLYNK_WRITE(V53)
 {
 int pinValue = param.asInt();
   if (pinValue == 1) {
     digitalWrite(13,HIGH);
     digitalWrite(14,LOW);
-    analogWrite(25,125);
+    analogWrite(25,100);
     digitalWrite(18,HIGH);
     digitalWrite(19,LOW);
     analogWrite(15,0);
@@ -244,24 +244,7 @@ void setup() {
   servo_5.attach(5);
 }
 
-void loopers() {
+void loop() {
   Blynk.run();
-
-  switch branch
-
-  Master Edit 1.0;
-
+  Timer1.run();
 }
-
-Baiki 1.0;
-Going to ver.2.0
-Master edit
-20230816
-
-Merge will show this , ok!!!
-
-i_ultrasonic github assigned
-
-
-//testing collaborator dengan yeoh
-//hantar semula ke yeoh
