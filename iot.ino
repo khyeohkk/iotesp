@@ -6,7 +6,7 @@
 #define BLYNK_AUTH_TOKEN            "SEYzlM7iYOryw0D5MJjNwXeDgEwLn_Eq"
 
 
-#define BLYNK_PRINT Serial
+#define BLYNK_PRINT Serialkk
 
 
 #include <WiFi.h>
