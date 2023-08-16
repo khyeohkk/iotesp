@@ -119,7 +119,7 @@ BlynkTimer Timer1;
 
 void Timer1_TimerEvent()
 {
-  Blynk.virtualWrite(V20, ultrasonic(12,27));
+//  Blynk.virtualWrite(V20, ultrasonic(12,27));
   Blynk.virtualWrite(V10, analogRead(36));
 }
 
